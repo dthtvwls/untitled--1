@@ -1,1 +1,5 @@
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" height="726" width="628"><polygon points="314,723 625.769145,183 2.230855,183" fill="none" stroke="black" stroke-width="4"/><polygon points="625.769145,543 314,3 2.230855,543" fill="none" stroke="black" stroke-width="4"/></svg>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" height="726" width="628">
+  <polygon points="314,723 625.769145,183 2.230855,183" fill="none" stroke="black" stroke-width="20"/>
+  <polygon points="625.769145,543 314,3 2.230855,543" fill="none" stroke="black" stroke-width="20"/>
+</svg>
