@@ -42,10 +42,18 @@ int y4 = -1;
 
 //quad( x1,y1 , x2,y2 , x3,y3 , x4,y4 );
 
-PShape hexagram = loadShape("Hexagram.svg");
-PShape pentagram = loadShape("Pentagram.svg");
+//PShape ashthalakshmi = loadShape( "Ashthalakshmi.svg" );
+PImage ashthalakshmi = loadImage( "Ashthalakshmi.png" ); 
+PShape hexagram = loadShape( "Hexagram.svg" );
+PShape infinity = loadShape( "Infinity.svg" );
+PShape lemniscate = loadShape( "Lemniscate.svg" );
+PShape pentagram = loadShape( "Pentagram.svg" );
 
-shape( hexagram , w,h , w,h );
+//shape( ashthalakshmi , 0,0 , 175,175 );
+shape( hexagram , 0,0 , 628,726 );
+shape( infinity , 0,0 , 420,475 );
+shape( lemniscate , 0,0 , 800,300 );
+shape( pentagram , 0,0 , 304,290 );
 
 println( w );
 println( h );
