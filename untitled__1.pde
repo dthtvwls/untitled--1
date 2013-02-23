@@ -34,9 +34,18 @@ int y3 = 0;
 int x4 = 0;
 int y4 = -1;
 
-point( w,h );
+//point( w,h );
 
-quad( x1,y1 , x2,y2 , x3,y3 , x4,y4 );
+//rect( w,h , w,h );
+
+//triangle( x1,y1 , x2,y2 , x3,y3 );
+
+//quad( x1,y1 , x2,y2 , x3,y3 , x4,y4 );
+
+PShape hexagram = loadShape("Hexagram.svg");
+PShape pentagram = loadShape("Pentagram.svg");
+
+shape( hexagram , w,h , w,h );
 
 println( w );
 println( h );
